@@ -1,19 +1,18 @@
-Purpletooth Jamboree Development Board
+SparkFun LilyPad Simblee Board  
 ==================
 
-Audio support board for the BC127 module from BlueCreation.
+Description goes here.
 
-[![Purpletooth Jamboree Development Board](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/9/2/4/11924-01_medium.jpg)  
-*Purpletooth Jamboree Development Board*](https://www.sparkfun.com/products/11924)
+[![LilyPad Simblee Board](hero_angle_image_here)  
+*LilyPad Simblee Board*](https://www.sparkfun.com/products/13633)
 
-Design files and firmware files for the [Purpletooth Jamboree Development Board](https://www.sparkfun.com/products/11924).
+Design files and firmware files for the [LilyPad Simblee Board](https://www.sparkfun.com/products/13633).
 
 Repository Contents
 -------------------
 
-* **/fritzing** - Fritzing components for this board
 * **/hardware** - Eagle PCB layout files
-* **/Libraries** - Library files for various platforms
+* **/Examples** - Example code for the LilyPad Simblee board
 * **/Production** - Files to support SparkFun production
 
 License Information
@@ -22,3 +21,4 @@ License Information
 All contents of this repository are released under [Creative Commons Share-alike 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
 
 Authors: Mike Hord @ SparkFun Electonics
+
