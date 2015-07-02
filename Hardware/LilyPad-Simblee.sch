@@ -11617,6 +11617,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="U$1" library="LilyPad-Wearables" deviceset="LOGO-LP" device="L"/>
+<part name="U$2" library="LilyPad-Wearables" deviceset="LOGO-LP" device="LP"/>
 </parts>
 <sheets>
 <sheet>
@@ -11721,6 +11722,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="FID1" gate="G$1" x="246.38" y="33.02"/>
 <instance part="FID2" gate="G$1" x="241.3" y="33.02"/>
 <instance part="U$1" gate="G$1" x="236.22" y="17.78"/>
+<instance part="U$2" gate="G$1" x="236.22" y="17.78"/>
 </instances>
 <busses>
 </busses>
