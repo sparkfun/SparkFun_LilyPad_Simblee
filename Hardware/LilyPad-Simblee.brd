@@ -319,15 +319,15 @@
 <wire x1="22.5664" y1="2.056125" x2="22.6364" y2="1.026125" width="0.2032" layer="20"/>
 <wire x1="22.6364" y1="1.026125" x2="22.6564" y2="-0.003875" width="0.2032" layer="20"/>
 <text x="-12.827" y="8.636" size="1.016" layer="21" font="vector" ratio="15">3</text>
-<text x="-5.08" y="14.224" size="1.016" layer="21" font="vector" ratio="15">5</text>
-<text x="3.81" y="14.224" size="1.016" layer="21" font="vector" ratio="15">8</text>
+<text x="-8.763" y="12.446" size="1.016" layer="21" font="vector" ratio="15">5</text>
+<text x="8.128" y="12.446" size="1.016" layer="21" font="vector" ratio="15">6</text>
 <text x="11.303" y="8.509" size="1.016" layer="21" font="vector" ratio="15">9</text>
 <text x="14.097" y="-0.254" size="1.016" layer="21" font="vector" ratio="15">11</text>
 <text x="11.049" y="-8.255" size="1.016" layer="21" font="vector" ratio="15">12</text>
 <text x="4.445" y="-14.224" size="1.016" layer="21" font="vector" ratio="15">15</text>
 <text x="-5.715" y="-14.605" size="1.4224" layer="21" font="vector" ratio="15">+</text>
 <text x="-12.954" y="-9.398" size="1.4224" layer="21" font="vector" ratio="15">-</text>
-<text x="1.143" y="-15.24" size="0.8128" layer="16" font="vector" ratio="15" rot="MR0">V10</text>
+<text x="1.143" y="-15.24" size="0.8128" layer="16" font="vector" ratio="15" rot="MR0">V11</text>
 <text x="22.86" y="-24.13" size="1.778" layer="51" font="vector" ratio="15">NOTE: Use 0.032" board thickness!</text>
 <text x="73.66" y="-31.75" size="1.778" layer="51" font="vector" ratio="15">Mike Hord</text>
 <dimension x1="0" y1="22.86" x2="0" y2="-22.86" x3="-34.29" y3="0" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
@@ -2322,7 +2322,7 @@ design rules under a new name.</description>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_COPPER_.1" value="SFE_LOGO_FLAME.1COP" x="-0.889" y="10.668" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S_COPPER" value="OSHW-LOGOS-COPPER" x="1.143" y="12.192" rot="MR0"/>
-<element name="FID1" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="-8.89" y="12.7"/>
+<element name="FID1" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="-10.16" y="11.43"/>
 <element name="FID2" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="8.89" y="-12.319"/>
 <element name="U$1" library="LilyPad-Wearables" package="LOGO-L" value="LOGO-LPL" x="9.144" y="6.096"/>
 <element name="U$2" library="LilyPad-Wearables" package="LOGO-LILYPAD" value="LOGO-LPLP" x="0.127" y="0.381" rot="MR0"/>
@@ -2649,10 +2649,6 @@ design rules under a new name.</description>
 <wire x1="-18.122" y1="-5.08" x2="-18.796" y2="-5.08" width="0.2032" layer="1"/>
 <wire x1="-18.796" y1="-5.08" x2="-19.09" y2="-4.786" width="0.2032" layer="1"/>
 <wire x1="-19.09" y1="-3.302" x2="-19.09" y2="-4.786" width="0.2032" layer="1"/>
-<wire x1="-19.09" y1="-3.302" x2="-19.09" y2="-1.564" width="0.2032" layer="1"/>
-<wire x1="-19.09" y1="-1.564" x2="-18.542" y2="-1.016" width="0.2032" layer="1"/>
-<wire x1="-18.542" y1="-1.016" x2="-16.614" y2="-1.016" width="0.2032" layer="1"/>
-<wire x1="-16.614" y1="-1.016" x2="-16.6" y2="-1.002" width="0.2032" layer="1"/>
 <polygon width="0.203" layer="1" isolate="0.3048" orphans="yes">
 <vertex x="-14.31" y="-7.45"/>
 <vertex x="-14.68" y="-7.1"/>
@@ -2895,6 +2891,13 @@ design rules under a new name.</description>
 <vertex x="-14.01" y="-8.1"/>
 <vertex x="-13.92" y="-7.74"/>
 </polygon>
+<wire x1="-18.122" y1="-5.08" x2="-18.122" y2="-5.881" width="0.254" layer="1"/>
+<wire x1="-18.122" y1="-5.881" x2="-17.526" y2="-6.477" width="0.254" layer="1"/>
+<via x="-17.526" y="-6.477" extent="1-16" drill="0.381"/>
+<wire x1="-17.526" y1="-6.477" x2="-16.002" y2="-6.477" width="0.254" layer="16"/>
+<wire x1="-16.002" y1="-6.477" x2="-15.494" y2="-6.985" width="0.254" layer="16"/>
+<wire x1="-15.494" y1="-6.985" x2="-13.716" y2="-6.985" width="0.254" layer="16"/>
+<wire x1="-13.716" y1="-6.985" x2="-13.589" y2="-6.858" width="0.254" layer="16"/>
 </signal>
 <signal name="RST">
 <contactref element="R3" pad="1"/>

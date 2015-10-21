@@ -11625,7 +11625,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="17.78" y="12.7" size="1.778" layer="95">Original LilyPad design by:</text>
 <text x="17.78" y="10.16" size="1.778" layer="95">L. Buechley</text>
 <text x="17.78" y="7.62" size="1.778" layer="95">N. Seidle</text>
-<text x="238.252" y="6.604" size="3.81" layer="91" font="vector">10</text>
+<text x="238.252" y="6.604" size="3.81" layer="91" font="vector">11</text>
 <text x="165.608" y="6.858" size="3.81" layer="91" font="vector">Mike Hord</text>
 <wire x1="0" y1="116.84" x2="147.32" y2="116.84" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="116.84" x2="147.32" y2="81.28" width="0.1524" layer="97" style="shortdash"/>
