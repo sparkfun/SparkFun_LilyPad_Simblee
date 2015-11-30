@@ -1664,9 +1664,9 @@ PATENTS PENDING 04.01.2015&lt;br/&gt;&lt;/p&gt;</description>
 <smd name="40" x="6.61" y="-4" dx="1" dy="0.254" layer="1"/>
 <smd name="41" x="6.61" y="-3.5" dx="1" dy="0.254" layer="1"/>
 <smd name="42" x="2.3" y="-4.99" dx="0.9" dy="0.9" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="43" x="2.3" y="-6.99" dx="1.5" dy="1.5" layer="1"/>
-<smd name="44" x="4.3" y="-6.99" dx="1.5" dy="1.5" layer="1"/>
-<smd name="45" x="4.3" y="-4.99" dx="1.5" dy="1.5" layer="1"/>
+<smd name="43" x="2.3" y="-6.99" dx="1.5" dy="1.5" layer="1" cream="no"/>
+<smd name="44" x="4.3" y="-6.99" dx="1.5" dy="1.5" layer="1" cream="no"/>
+<smd name="45" x="4.3" y="-4.99" dx="1.5" dy="1.5" layer="1" cream="no"/>
 <polygon width="0" layer="1">
 <vertex x="3.05" y="-5.74"/>
 <vertex x="1.55" y="-5.74"/>
@@ -1690,15 +1690,12 @@ PATENTS PENDING 04.01.2015&lt;br/&gt;&lt;/p&gt;</description>
 <vertex x="1.45" y="-5.84"/>
 <vertex x="3.15" y="-5.84"/>
 </polygon>
-<polygon width="0.005" layer="31">
-<vertex x="3.05" y="-4.24"/>
-<vertex x="2.04" y="-4.24"/>
-<vertex x="1.55" y="-4.73"/>
-<vertex x="1.55" y="-5.74"/>
-<vertex x="3.05" y="-5.74"/>
-</polygon>
 <rectangle x1="0.762" y1="-3.175" x2="6.858" y2="0.508" layer="39"/>
 <rectangle x1="0.762" y1="-3.175" x2="6.858" y2="0.508" layer="40"/>
+<circle x="2.3368" y="-4.953" radius="0.3048" width="0" layer="31"/>
+<circle x="4.2926" y="-4.953" radius="0.3048" width="0" layer="31"/>
+<circle x="4.318" y="-6.985" radius="0.3048" width="0" layer="31"/>
+<circle x="2.286" y="-6.9596" radius="0.3048" width="0" layer="31"/>
 </package>
 </packages>
 <symbols>
@@ -11625,8 +11622,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="17.78" y="12.7" size="1.778" layer="95">Original LilyPad design by:</text>
 <text x="17.78" y="10.16" size="1.778" layer="95">L. Buechley</text>
 <text x="17.78" y="7.62" size="1.778" layer="95">N. Seidle</text>
-<text x="238.252" y="6.604" size="3.81" layer="91" font="vector">11</text>
-<text x="165.608" y="6.858" size="3.81" layer="91" font="vector">Mike Hord</text>
+<text x="238.252" y="6.604" size="3.81" layer="94" font="vector">12</text>
+<text x="165.608" y="6.858" size="3.81" layer="94" font="vector">Mike Hord</text>
 <wire x1="0" y1="116.84" x2="147.32" y2="116.84" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="116.84" x2="147.32" y2="81.28" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="81.28" x2="147.32" y2="0" width="0.1524" layer="97" style="shortdash"/>
