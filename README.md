@@ -1,3 +1,8 @@
+**NOTE:** *This product has been retired from our catalog. If you are looking for more up-to-date info, please check out some of these resources to see how other users are still hacking and improving on this product.*
+* *[SparkFun Forum](https://forum.sparkfun.com/)*
+* *[Comments Here on GitHub](https://github.com/sparkfun/SparkFun_LilyPad_Simblee/issues)*
+* *[IRC Channel](https://www.sparkfun.com/news/263)*
+
 SparkFun LilyPad Simblee Board  
 ==================
 
@@ -13,6 +18,11 @@ Repository Contents
 
 * **/hardware** - Eagle PCB layout files
 * **/Production** - Files to support SparkFun production
+
+Documentation
+--------------
+* **[Simblee Concepts](https://learn.sparkfun.com/tutorials/simblee-concepts)** - Information about Simblee
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/simblee-lilypad-hookup-guide)** - Basic hookup guide
 
 License Information
 -------------------
